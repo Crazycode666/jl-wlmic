@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "board_ac706n_1tn_cfg.h": "c",
+        "board_ac706n_2t1_simplex_cfg.h": "c"
+    }
+}
