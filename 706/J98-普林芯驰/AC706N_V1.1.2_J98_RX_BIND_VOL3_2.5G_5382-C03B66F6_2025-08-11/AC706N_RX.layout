@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Release" />
+	<File name="include_lib\driver\cpu\br29\asm\pwm_led.h" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2964" topLine="9" />
+		</Cursor>
+	</File>
+	<File name="apps\soundbox\ui\led\pwm_led_api.c" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="10210" topLine="301" />
+		</Cursor>
+	</File>
+	<File name="cpu\br29\audio_link.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="174" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="cpu\br29\mcpwm.c" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="10683" topLine="302" />
+		</Cursor>
+	</File>
+	<File name="apps\soundbox\app_main.c" open="1" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="879" topLine="33" />
+		</Cursor>
+	</File>
+	<File name="cpu\br29\audio_way\audio_way.c" open="1" top="1" tabpos="18" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="34492" topLine="1076" />
+		</Cursor>
+	</File>
+	<File name="apps\soundbox\include\ui\ui_api.h" open="1" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3620" topLine="90" />
+		</Cursor>
+	</File>
+	<File name="apps\soundbox\include\app_power_manage.h" open="1" top="0" tabpos="16" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="255" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="apps\soundbox\board\br29\board_ac706n_2T1_simplex\board_ac706n_2T1_simplex_cfg.h" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="41960" topLine="261" />
+		</Cursor>
+	</File>
+	<File name="apps\soundbox\board\br29\board_ac706n_2T1_simplex\board_ac706n_2T1_simplex.c" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="29211" topLine="895" />
+		</Cursor>
+	</File>
+	<File name="apps\soundbox\task_manager\power_on\power_on.c" open="1" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1814" topLine="55" />
+		</Cursor>
+	</File>
+	<File name="apps\soundbox\board\br29\board_ac706n_2T1_simplex\board_ac706n_2T1_simplex_global_build_cfg.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1492" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="apps\soundbox\common\user_cfg_new.c" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="351" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="apps\soundbox\board\br29\board_ac706n_1TN\board_ac706n_1TN.c" open="1" top="0" tabpos="15" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="11745" topLine="296" />
+		</Cursor>
+	</File>
+	<File name="cpu\br29\audio_config.h" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5678" topLine="69" />
+		</Cursor>
+	</File>
+	<File name="apps\soundbox\board\br29\board_config.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="apps\soundbox\include\app_config.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="221" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="apps\soundbox\connected\app_connected.c" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="11334" topLine="309" />
+		</Cursor>
+	</File>
+	<File name="cpu\br29\pwm_led.c" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="60255" topLine="1976" />
+		</Cursor>
+	</File>
+	<File name="apps\soundbox\log_config\lib_btctrler_config.c" open="1" top="0" tabpos="17" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="9186" topLine="270" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>
