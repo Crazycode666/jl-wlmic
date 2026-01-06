@@ -1,0 +1,161 @@
+#ifndef _WIRELESS_MIC_EFFCT_H_
+#define _WIRELESS_MIC_EFFCT_H_
+
+#include "application/audio_bfilt.h"
+#include "media/audio_eq_drc_apply.h"
+#include "application/audio_echo_src.h"
+#include "application/audio_energy_detect.h"
+#include "media/audio_stream.h"
+#include "stream_entry.h"
+#include "mic_effect.h"
+#include "audio_effect/audio_eff_default_parm.h"
+#include "audio_effect/audio_autotune_demo.h"
+#include "media/convert_data.h"
+#include "media/effects_adj.h"
+#include "audio_effect/audio_eq_drc_demo.h"
+#include "media/audio_echo_reverb.h"
+#include "mic_stream.h"
+#include "mic_stream_demo.h"
+#include "mic_stream_agc.h"
+#include "app_config.h"
+
+// #if MIC_EFFECT_LLNS
+// #include "audio_llns.h"
+// #endif
+
+
+#define LIVE_MIC_EFFECT_CONFIG 	  	0\
+								| BIT(MIC_EFFECT_CONFIG_NOISEGATE) \
+								| BIT(MIC_EFFECT_CONFIG_EQ) \
+								| BIT(MIC_EFFECT_CONFIG_HOWLING) \
+								| BIT(MIC_EFFECT_CONFIG_HOWLING_TRAP) \
+/* | BIT(MIC_EFFECT_CONFIG_ENERGY_DETECT) \ */
+/* | BIT(MIC_EFFECT_CONFIG_LINEIN) \ */
+/* | BIT(MIC_EFFECT_CONFIG_DVOL) \ */
+
+//tx剩余的ram，目前只够开启noisegate 、eq与drc
+#define	WIRELESS_MIC_CONFIG_ECHO				1
+#define	WIRELESS_MIC_CONFIG_REVERB				0
+#define	WIRELESS_MIC_CONFIG_LLNS			    0
+#define	WIRELESS_MIC_CONFIG_NOISEGATE			1
+#define	WIRELESS_MIC_CONFIG_EQ					0
+#define	WIRELESS_MIC_CONFIG_HOWLING				0
+#define	WIRELESS_MIC_CONFIG_HOWLING_TRAP		0
+#define	WIRELESS_MIC_CONFIG_VOICE_CHANGE		0
+#define WIRELESS_MIC_CONFIG_AGC                 0
+#define WIRELESS_MIC_CONFIG_GAIN                0
+#define WIRELESS_MIC_LOUDNESS_DEBUG             0
+#define	WIRELESS_MIC_CONFIG_DEMO				0
+
+#if (WIRELESS_MIC_CONFIG_ECHO || WIRELESS_MIC_CONFIG_REVERB || \
+     WIRELESS_MIC_CONFIG_LLNS || WIRELESS_MIC_CONFIG_NOISEGATE || \
+     WIRELESS_MIC_CONFIG_EQ || WIRELESS_MIC_CONFIG_HOWLING || \
+     WIRELESS_MIC_CONFIG_HOWLING_TRAP || WIRELESS_MIC_CONFIG_VOICE_CHANGE || \
+     WIRELESS_MIC_CONFIG_GAIN || WIRELESS_MIC_LOUDNESS_DEBUG || WIRELESS_MIC_CONFIG_DEMO)
+#if WIRELESS_MIC_EFFECT_ONLY_DVOL
+#error "Need close WIRELESS_MIC_EFFECT_ONLY_DVOL"
+#endif
+#endif
+
+enum {
+    WIRELESS_AUDIO_DATA,
+};
+
+struct live_mic_effect_param {
+    int effect_config;   //音效支持的功能;
+    u32 sample_rate;
+    u8 ch_num;
+    void *output_priv;      /*输出私有参数*/
+    int (*output)(void *output_priv, void *data, int len);     /*输出接口*/
+};
+
+struct peak_dB {
+    float max_dB;
+    u16 cnt;
+    u16 index;//0:前级 1:后级
+};
+
+struct live_mic_effect {
+    struct audio_stream *stream;			// 音频流
+    struct audio_stream_entry entry;		// effect 音频入口
+    struct audio_stream_entry output_entry; //effect 数据出口
+
+    struct live_mic_effect_param param; //effect 参数
+
+    struct audio_eq             *mic_eq0;    //eq 句柄
+    struct audio_drc            *mic_drc0;   //eq 句柄
+    struct convert_data         *convert0;   //32-》16
+
+    struct audio_eq             *mic_eq4;    //eq drc句柄
+    struct audio_drc            *mic_drc4;    //eq drc句柄
+    struct convert_data         *convert4;//32-》16
+    struct aud_gain_process     *gain; //数字gain句柄
+    struct peak_dB              loudness_in; //前级输入分贝打印使能
+    struct peak_dB              loudness_out;//后级输出分贝打印使能
+    struct __stream_entry       *loudness_debug_hdl;
+
+
+    NOISEGATE_API_STRUCT	*noisegate;
+    HOWLING_API_STRUCT 		*howling_ps;
+    HOWLING_API_STRUCT 		*notch_howling;
+    voice_changer_hdl       *voice_changer;
+    struct __stream_llns    *llns;
+    struct __stream_agc     *agc;
+    struct __stream_demo_hdl *demo;
+
+    struct audio_eq     	*mic_eq3;    //eq drc句柄
+    struct audio_drc    	*mic_drc3;    //eq drc句柄
+
+    //分支0节点
+    PLATE_REVERB_API_STRUCT		*sub_0_plate_reverb_hdl;
+    struct audio_eq     		*mic_eq1;    //eq drc句柄
+    struct audio_drc     		*mic_drc1;    //eq drc句柄
+
+    //分支1节点
+    ECHO_API_STRUCT 			*sub_1_echo_hdl;
+    struct audio_eq     		*mic_eq2;    //eq drc句柄
+    struct audio_drc     		*mic_drc2;    //eq drc句柄
+
+    //分支1 2 3的总处理
+    struct aud_reverb_process *aud_reverb;
+
+    u32 process_len;	// 数据流处理长度
+    u8 bypass;
+
+    spinlock_t lock;
+    u8 start;
+    u32 timestamp;
+
+};
+
+
+
+
+struct live_mic_effect *live_mic_effect_init(struct live_mic_effect_param *param);
+
+void live_mic_effect_open(struct live_mic_effect *effect);
+
+int live_mic_effect_stream_entry_add(struct live_mic_effect *effect, struct audio_stream_entry **entries, int max);
+
+int live_mic_effect_input(void *_effect, void *buff, int len, u32 time);
+
+void live_mic_effect_close(struct live_mic_effect *effect);
+
+
+u8 live_mic_effect_status_get();
+
+void live_mic_plate_reverb_update_parm(void *parm, int bypass);
+
+void live_mic_echo_updata_parm(void *parm, int bypass);
+
+void live_mic_howling_pitch_shift_update_parm(void *parm, int bypass);
+
+void live_mic_notchhowline_update_parm(void *parm, int bypass);
+
+int live_mic_effect_add_output(struct audio_stream_entry *output);
+
+int live_mic_effect_del_output(struct audio_stream_entry *output);
+
+int live_mic_effect_async_input(void *effect, void *data, int len);
+#endif
+

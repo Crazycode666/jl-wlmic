@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Release" />
+	<File name="include_lib\driver\cpu\br30\asm\gpio.h" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="7233" topLine="226" />
+		</Cursor>
+	</File>
+	<File name="apps\common\audio\decode\audio_key_tone.c" open="1" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="19026" topLine="606" />
+		</Cursor>
+	</File>
+	<File name="apps\earphone\key_event_deal.c" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="13582" topLine="404" />
+		</Cursor>
+	</File>
+	<File name="apps\earphone\pc\pc.c" open="0" top="0" tabpos="16" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3134" topLine="12" />
+		</Cursor>
+	</File>
+	<File name="apps\earphone\idle.c" open="1" top="0" tabpos="15" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5295" topLine="176" />
+		</Cursor>
+	</File>
+	<File name="include_lib\media\media_new\media\cpu\br30\asm\dac.h" open="0" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6545" topLine="185" />
+		</Cursor>
+	</File>
+	<File name="apps\earphone\board\br30\board_config.h" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="441" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="apps\earphone\board\br30\board_ac8972a_demo.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="19884" topLine="544" />
+		</Cursor>
+	</File>
+	<File name="include_lib\system\fs\sdfile.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4228" topLine="121" />
+		</Cursor>
+	</File>
+	<File name="apps\earphone\board\br30\board_ac8973a_anc.c" open="0" top="0" tabpos="24" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="23895" topLine="662" />
+		</Cursor>
+	</File>
+	<File name="include_lib\btstack\btstack_task.h" open="0" top="0" tabpos="19" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="51" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="apps\earphone\tme\tme_key.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1392" topLine="29" />
+		</Cursor>
+	</File>
+	<File name="apps\earphone\bt_tws.c" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="21916" topLine="786" />
+		</Cursor>
+	</File>
+	<File name="cpu\br30\audio_link.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="17191" topLine="572" />
+		</Cursor>
+	</File>
+	<File name="cpu\br30\audio_cvp_demo.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2468" topLine="49" />
+		</Cursor>
+	</File>
+	<File name="apps\earphone\board\br30\board_ac8976a_anc_cfg.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4666" topLine="49" />
+		</Cursor>
+	</File>
+	<File name="cpu\br30\pwm_led.c" open="1" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="199" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="apps\earphone\app_ancbox.c" open="0" top="0" tabpos="27" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="15985" topLine="516" />
+		</Cursor>
+	</File>
+	<File name="apps\earphone\ui_manage.c" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3273" topLine="105" />
+		</Cursor>
+	</File>
+	<File name="apps\earphone\include\key_event_deal.h" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="198" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="cpu\br30\effects_adj.h" open="0" top="0" tabpos="31" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1271" topLine="28" />
+		</Cursor>
+	</File>
+	<File name="cpu\br30\audio_config.h" open="0" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3412" topLine="63" />
+		</Cursor>
+	</File>
+	<File name="cpu\br30\setup.c" open="0" top="0" tabpos="29" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3300" topLine="186" />
+		</Cursor>
+	</File>
+	<File name="apps\earphone\board\br30\board_ac8976a_dms_cfg.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4667" topLine="50" />
+		</Cursor>
+	</File>
+	<File name="cpu\br30\lp_touch_key.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="20157" topLine="597" />
+		</Cursor>
+	</File>
+	<File name="apps\earphone\board\br30\board_ac8976a_npu.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="23666" topLine="674" />
+		</Cursor>
+	</File>
+	<File name="apps\earphone\power_manage\app_power_manage.c" open="0" top="0" tabpos="28" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3293" topLine="105" />
+		</Cursor>
+	</File>
+	<File name="apps\earphone\earphone.c" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="22416" topLine="747" />
+		</Cursor>
+	</File>
+	<File name="apps\common\third_party_profile\Tecent_LL\tecent_ll_demo\ll_demo.c" open="0" top="0" tabpos="32" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="11923" topLine="377" />
+		</Cursor>
+	</File>
+	<File name="apps\earphone\music\music.c" open="0" top="0" tabpos="17" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5606" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="apps\earphone\xm_mma\mma_key.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1731" topLine="43" />
+		</Cursor>
+	</File>
+	<File name="apps\earphone\include\earphone.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="19559" topLine="304" />
+		</Cursor>
+	</File>
+	<File name="cpu\br30\app_audio.c" open="0" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="27361" topLine="921" />
+		</Cursor>
+	</File>
+	<File name="apps\earphone\audio_enc_mpt_cvp_ctr.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2892" topLine="66" />
+		</Cursor>
+	</File>
+	<File name="apps\common\third_party_profile\jieli\JL_rcsp\rcsp_updata\rcsp_user_update.c" open="0" top="0" tabpos="37" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="15955" topLine="477" />
+		</Cursor>
+	</File>
+	<File name="apps\earphone\board\br30\board_ad697n_anc.c" open="0" top="0" tabpos="23" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="25873" topLine="723" />
+		</Cursor>
+	</File>
+	<File name="cpu\br30\audio_enc.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="24547" topLine="842" />
+		</Cursor>
+	</File>
+	<File name="apps\earphone\power_manage\app_charge.c" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3418" topLine="522" />
+		</Cursor>
+	</File>
+	<File name="apps\earphone\default_event_handler.c" open="0" top="0" tabpos="38" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4520" topLine="148" />
+		</Cursor>
+	</File>
+	<File name="apps\common\third_party_profile\tuya_protocol\tuya_demo.c" open="0" top="0" tabpos="34" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="9302" topLine="250" />
+		</Cursor>
+	</File>
+	<File name="cpu\br30\audio_capture.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="12822" topLine="368" />
+		</Cursor>
+	</File>
+	<File name="apps\common\third_party_profile\tuya_protocol\tuya_ble_app_demo.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="910" topLine="33" />
+		</Cursor>
+	</File>
+	<File name="include_lib\btstack\avctp_user.h" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="12242" topLine="295" />
+		</Cursor>
+	</File>
+	<File name="apps\earphone\tone_table.c" open="1" top="0" tabpos="17" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3567" topLine="141" />
+		</Cursor>
+	</File>
+	<File name="apps\earphone\include\app_action.h" open="0" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="315" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="apps\earphone\board\br30\board_ac8973a_anc_cfg.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="12273" topLine="195" />
+		</Cursor>
+	</File>
+	<File name="apps\earphone\board\br30\board_ac8976_ms70.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="20858" topLine="552" />
+		</Cursor>
+	</File>
+	<File name="include_lib\driver\cpu\br30\asm\pwm_led.h" open="1" top="1" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1408" topLine="15" />
+		</Cursor>
+	</File>
+	<File name="apps\earphone\include\tone_player.h" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3331" topLine="84" />
+		</Cursor>
+	</File>
+	<File name="apps\common\third_party_profile\xiaomi\le_mi_server.c" open="0" top="0" tabpos="35" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="21054" topLine="622" />
+		</Cursor>
+	</File>
+	<File name="cpu\br30\audio_dec.c" open="1" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="13236" topLine="504" />
+		</Cursor>
+	</File>
+	<File name="include_lib\media\media_new\media\automute.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="226" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="apps\common\third_party_profile\GFPS\le_gfps.c" open="0" top="0" tabpos="36" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4650" topLine="101" />
+		</Cursor>
+	</File>
+	<File name="apps\earphone\include\app_config.h" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="379" topLine="270" />
+		</Cursor>
+	</File>
+	<File name="cpu\br30\tone_player_api.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="195" topLine="20" />
+		</Cursor>
+	</File>
+	<File name="cpu\br30\audio_anc.c" open="1" top="0" tabpos="16" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="23564" topLine="580" />
+		</Cursor>
+	</File>
+	<File name="apps\common\usb\device\user_setup.c" open="0" top="0" tabpos="30" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="84" />
+		</Cursor>
+	</File>
+	<File name="apps\earphone\board\br30\board_ad697n_demo_cfg.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="10144" topLine="158" />
+		</Cursor>
+	</File>
+	<File name="include_lib\system\os\os_api.h" open="0" top="0" tabpos="20" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1632" topLine="51" />
+		</Cursor>
+	</File>
+	<File name="apps\common\audio\audio_digital_vol.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="543" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="apps\earphone\user_cfg.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="11431" topLine="175" />
+		</Cursor>
+	</File>
+	<File name="apps\common\audio\decode\decode.c" open="0" top="0" tabpos="40" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="8858" topLine="239" />
+		</Cursor>
+	</File>
+	<File name="apps\common\music\music_player.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4328" topLine="130" />
+		</Cursor>
+	</File>
+	<File name="cpu\br30\audio_demo\audio_dac_demo.c" open="0" top="0" tabpos="25" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="8253" topLine="165" />
+		</Cursor>
+	</File>
+	<File name="cpu\br30\tone_player.c" open="1" top="0" tabpos="18" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="43446" topLine="1642" />
+		</Cursor>
+	</File>
+	<File name="apps\earphone\board\br30\board_ad697n_demo.c" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="24209" topLine="682" />
+		</Cursor>
+	</File>
+	<File name="apps\earphone\app_main.c" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4986" topLine="210" />
+		</Cursor>
+	</File>
+	<File name="apps\earphone\board\br30\board_ac8972a_demo_cfg.h" open="0" top="0" tabpos="22" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="23754" topLine="427" />
+		</Cursor>
+	</File>
+	<File name="include_lib\system\generic\errno-base.h" open="1" top="0" tabpos="19" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="974" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="apps\common\third_party_profile\jieli\trans_data_demo\le_trans_data.c" open="0" top="0" tabpos="33" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="11393" topLine="359" />
+		</Cursor>
+	</File>
+	<File name="apps\earphone\include\app_power_manage.h" open="1" top="0" tabpos="21" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="582" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="apps\common\third_party_profile\jieli\JL_rcsp\bt_trans_data\le_rcsp_adv_module.c" open="1" top="0" tabpos="20" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="43962" topLine="1534" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>
